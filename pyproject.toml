@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "php1880-stress-survey"
+version = "0.1.0"
+description = ""
+authors = ["youribenadjaoud <youribenadjaoud@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+numpy = "^1.23.5"
+scipy = "^1.9.3"
+seaborn = "^0.12.1"
+matplotlib = "^3.6.2"
+black = "^22.10.0"
+jupyter-black = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
